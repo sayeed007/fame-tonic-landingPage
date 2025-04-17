@@ -1,7 +1,13 @@
 // components/Button.tsx
 import Link from 'next/link';
 
-export default function Button({ children, href, className = '' }) {
+interface ButtonProps {
+    children: React.ReactNode;
+    href: string;
+    className?: string;
+}
+
+export default function Button({ children, href, className = '' }: ButtonProps) {
     return (
         <Link
             href={href}
