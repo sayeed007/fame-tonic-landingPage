@@ -1,0 +1,14 @@
+fametonic-landing/
+├── app/
+│   ├── page.tsx
+│   ├── layout.tsx
+│   └── globals.css
+├── components/
+│   ├── Header.tsx
+│   ├── Hero.tsx
+│   ├── Button.tsx
+│   └── Footer.tsx
+├── public/
+│   ├── images/
+│   │   ├── logo.svg
+│   │   └── phone-mockup.png
